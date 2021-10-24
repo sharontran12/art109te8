@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Art 109 TE 8</title>
+
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    
+ <!-- Load the Paper.js library -->
+    <script type="text/javascript" src="paper-full.min.js"></script>
+    <!-- Load external PaperScript and associate it with myCanvas -->
+    <script type="text/paperscript" src="script.js" canvas="myCanvas"></script>
+    
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        <h1>Technical Exercise 8: Paper.js</h1>
+
+  
+        <!-- Instructions on using this project -->
+        <div class="instructions">
+          <h2>The Tadpoles Example</h2>
+          <p>
+            For my technical exercise #8, I chose to build off on the tadpoles example from paper.js. Below is my alteration to the original javascript code <a href="http://paperjs.org/examples/tadpoles/">Tadpoles</a>. For this example, I attempted to make a fish that would create a heart shape by changing the speed/motion. I changed the colors using orange, white, and red to give a vibrant look. 
+            </p>
+          
+    <!-- Canvas for my Paper.js script -->
+          <center><canvas id="myCanvas" crossorigin="anonymous" resize></canvas><br /><br /></center>
+          
+          <!-- ADD BUTTON HERE -->
+          
+          <!-- Once you've added the button from the readme, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
+        </div>
+      </div>
+    </div>
+    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+    <footer class="footer">
+  
+    </footer>
+  </body>
+</html>
